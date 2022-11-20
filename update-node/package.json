@@ -1,0 +1,19 @@
+{
+  "name": "update-node",
+  "version": "1.0.0",
+  "description": "Updates node in each of the repos to the version of node currently installed on this machine.",
+  "main": "update-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "execa": "^6.1.0",
+    "glob": "^8.0.3"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.0.0"
+  }
+}
